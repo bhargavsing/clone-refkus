@@ -6,7 +6,6 @@ const Cards = () => {
         { header: "Up Next: News", title: "Insights and behind the scenes" },
         { header: "Get In Touch", title: "Let's get to it, together. " },
     ]
-
     return (
         <div className="w-full ">
             <div className="max-w-screen-xl mx-auto py-20 flex gap-2">

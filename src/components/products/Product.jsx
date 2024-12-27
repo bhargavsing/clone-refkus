@@ -10,6 +10,7 @@ const Product = ({ val, mover, count }) => {
             >
                 <h1 className="text-5xl font-semibold">{val.title}</h1>
                 <div className="dets w-1/3">
+                
                     <p className="mb-10">{val.description}</p>
                     <div className="flex items-center gap-5">
                         {val.live && <Button />}
